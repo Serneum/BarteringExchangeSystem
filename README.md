@@ -10,10 +10,10 @@ of a chain of trades as possible. For simplicity, the trade limit is capped at 1
 they want, but there may have been many trades involved along the way.
 
 Ex:
+- User 1 has pencil, wants pen
+- User 2 has pen, wants eraser
+- User 3 has eraser, wants pencil
 
-User 1 has pencil, wants pen
-User 2 has pen, wants eraser
-User 3 has eraser, wants pencil
 When the system finds all three of these users, it will create a chain of trades where everybody gets what they want. When
 a trade is created, all of the users/items involved are taken out of the database and stored in a second database until trades are
 finalized. All of the users are notified of the trade and are allowed to confirm or deny the trade. If anyone denies the trade, all of
